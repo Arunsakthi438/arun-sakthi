@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins:ital';
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+body{
+    background-color: rgb(223, 119, 119)
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+}
+.navlist{
+    display: flex;
+   
+}
+.navlist a{
+    color: rgb(245, 242, 242);
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition:all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid rgb(236, 232, 232);
+}
+h2{
+    color: bisque;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+h5{
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.town-img{
+    padding: 120px;
+    width: 90%;
+    height: 90%;   
+}
+.town-img .town-row{
+    display: flex;
+
+}
+.town-img .town-row div{
+    padding-top:120px;
+    margin: 10px;
+}
+.town-img .town-row img{
+    width: 22vw;
+    height: 22vh;
+    padding: 10px 20px;
+}

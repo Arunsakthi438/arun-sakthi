@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins:ital';
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+body{
+    background-color: rgb(15, 15, 15)
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(83, 209, 25);
+}
+.navlist{
+    display: flex;
+   
+}
+.navlist a{
+    color: rgb(245, 242, 242);
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition:all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid rgb(236, 232, 232);
+}
+h2{
+    color: rgb(230, 233, 57);
+    text-align: center;
+    padding-top: 100px;
+}
+.troop-img{
+    padding: 50px;
+    width: 90%;
+    height: 90%;   
+}
+.troop-img .trop-row{
+    display: flex;
+
+}
+.troop-img .trop-row div{
+    padding-top:120px;
+    margin: 10px;
+}
+.troop-img .trop-row img{
+    width: 22vw;
+    height: 22vh;
+    padding: 10px 20px;
+}
+.trop-row h4{
+    color: yellowgreen;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.troop-img .trop-row1{
+    display: flex;
+}
+.troop-img .trop-row1 img{
+    width: 70vw;
+    height: 60vh;
+    padding-left: 10px 20px;
+    align-items: center;
+}
+.trop-row1 img{
+    padding-left: 400px;
+   
+}
+.trop-row1 h4{
+    color: yellowgreen;
+    padding-left: 400px;
+    text-align: center;
+}
+   
